@@ -3,7 +3,7 @@ const tp_vinh_long = {
   population: "200.120 người",
   area: "47,82 km²",
   coordinate: {
-    longitude: 105.9039879,
-    latitude: 10.2518877,
+    longitude: 105.97496078280676,
+    latitude: 10.250958223344359,
   },
 };

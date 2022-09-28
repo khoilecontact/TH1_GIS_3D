@@ -3,7 +3,7 @@ const tp_ben_tre = {
   population: "124.560 người",
   area: "70,60 km²",
   coordinate: {
-    longitude: 106.3404459,
-    latitude: 10.2373926,
+    longitude: 106.378889,
+    latitude: 10.240278,
   },
 };

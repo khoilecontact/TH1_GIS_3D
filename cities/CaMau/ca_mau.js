@@ -3,7 +3,7 @@ const tp_ca_mau = {
   population: "226.372 người",
   area: "249,23 km²",
   coordinate: {
-    longitude: 105.1169593,
-    latitude: 9.1753578,
+    longitude: 105.150862,
+    latitude: 9.176205,
   },
 };

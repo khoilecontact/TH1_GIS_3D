@@ -3,7 +3,7 @@ const tp_vi_thanh = {
   population: "72.686 người",
   area: "118,86 km²",
   coordinate: {
-    longitude: 105.3450436,
-    latitude: 9.7519005,
+    longitude: 105.413889,
+    latitude: 9.754167,
   },
 };

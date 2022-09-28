@@ -3,7 +3,7 @@ const tp_long_xuyen = {
   population: "272.365 người",
   area: "114,96 km²",
   coordinate: {
-    longitude: 105.2957816,
-    latitude: 10.3767052,
+    longitude: 105.425833,
+    latitude: 110.372778,
   },
 };

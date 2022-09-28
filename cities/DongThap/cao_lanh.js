@@ -3,7 +3,7 @@ const tp_cao_lanh = {
   population: "164.835 người",
   area: "107 km²",
   coordinate: {
-    longitude: 105.5907576,
-    latitude: 10.4593623,
+    longitude: 105.366404,
+    latitude: 10.835439,
   },
 };

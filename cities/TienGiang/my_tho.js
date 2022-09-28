@@ -3,7 +3,7 @@ const tp_my_tho = {
   population: "228.109 người",
   area: "81,54 km²",
   coordinate: {
-    longitude: 106.3101689,
-    latitude: 10.3692058,
+    longitude: 106.366944,
+    latitude: 10.352222,
   },
 };
