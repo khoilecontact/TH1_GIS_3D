@@ -1,8 +1,8 @@
 const ben_tre = {
     title: "Tỉnh Bến Tre",
-    population: "1.621.000",
-    area: "3.233km²",
-    color: [43, 127, 203, 0.8],
+    population: "1.288.200",
+    area: "2.379km²",
+    color: [27, 127, 203, 0.8],
     rings: [
         // Mặt gíap với tỉnh Tiền Giang
               [106.03389971924592, 10.29949951959419],
