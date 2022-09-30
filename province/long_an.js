@@ -2,7 +2,7 @@ const long_an = {
   title: "Tỉnh Long An",
   population: "1.744.138",
   area: "4.492 km²",
-  color: [60, 43, 203, 0.8],
+  color: [60, 43, 203, 0.6],
   rings: [
     [105.50051297965689, 10.95234890593663], // Long An giao với Campuchia
     [105.50494825324265, 10.948987770496517],
