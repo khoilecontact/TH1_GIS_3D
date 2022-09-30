@@ -78,6 +78,7 @@ require([
   // tỉnh
   graphicsLayer.add(withProvince(long_an));
   graphicsLayer.add(withProvince(ben_tre));
+  graphicsLayer.add(withProvince(soc_trang));
   // cầu
   graphicsLayer.add(withBridge(cau_vam_cong));
   graphicsLayer.add(withBridge(cau_rach_mieu));
