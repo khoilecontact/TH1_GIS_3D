@@ -80,6 +80,7 @@ require([
   graphicsLayer.add(withProvince(ben_tre));
   graphicsLayer.add(withProvince(soc_trang));
   graphicsLayer.add(withProvince(tien_giang));
+  graphicsLayer.add(withProvince(an_giang));
   // cầu
   graphicsLayer.add(withBridge(cau_vam_cong));
   graphicsLayer.add(withBridge(cau_rach_mieu));
