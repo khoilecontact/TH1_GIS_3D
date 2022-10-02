@@ -17,18 +17,6 @@ require([
   });
   const graphicsLayer = new GraphicsLayer();
 
-  //   const withProvince = (data) => {
-  //     return new Graphic({
-  //       geometry: { type: "polygon", rings: data.rings },
-  //       symbol: { type: "simple-fill", color: data.color },
-  //       attributes: data,
-  //       popupTemplate: {
-  //         title: "{title}",
-  //         content: "<a>Dân số: {population} <br> Diện tích: {area}</a>",
-  //       },
-  //     });
-  //   };
-
   const withProvince = (data) => {
     return new Graphic({
       geometry: { type: "polygon", rings: data.rings },
@@ -82,6 +70,7 @@ require([
   graphicsLayer.add(withProvince(tien_giang));
   graphicsLayer.add(withProvince(an_giang));
   graphicsLayer.add(withProvince(can_tho));
+  graphicsLayer.add(withProvince(hau_giang));
   // cầu
   graphicsLayer.add(withBridge(cau_vam_cong));
   graphicsLayer.add(withBridge(cau_rach_mieu));
