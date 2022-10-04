@@ -65,8 +65,8 @@ require([
 
   const withHighway = (data) => {
     return new Graphic({
-      geometry: { type: "polyline", rings: data.rings },
-      symbol: { type: "simple-line", color: data.color, withd: 2},
+      geometry: { type: "polyline", paths: data.paths },
+      symbol: { type: "simple-line", color: data.color, withd: 5},
       attributes: data,
       popupTemplate: {
         title: "{title}",
