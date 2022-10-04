@@ -63,6 +63,18 @@ require([
     });
   };
 
+  const withHighway = (data) => {
+    return new Graphic({
+      geometry: { type: "polyline", paths: data.paths },
+      symbol: { type: "simple-line", color: data.color, withd: 5},
+      attributes: data,
+      popupTemplate: {
+        title: "{title}",
+        content: "<a>Chiều dài: {length}</a>",
+      },
+    });
+  };
+
   // tỉnh
   graphicsLayer.add(withProvince(long_an));
   graphicsLayer.add(withProvince(ben_tre));
@@ -71,6 +83,9 @@ require([
   graphicsLayer.add(withProvince(an_giang));
   graphicsLayer.add(withProvince(can_tho));
   graphicsLayer.add(withProvince(hau_giang));
+
+  graphicsLayer.add(withProvince(ca_mau));
+
   graphicsLayer.add(withProvince(tra_vinh));
   graphicsLayer.add(withProvince(dong_thap));
   graphicsLayer.add(withProvince(vinh_long));
@@ -107,6 +122,11 @@ require([
   graphicsLayer.add(withCity(tp_long_xuyen));
   graphicsLayer.add(withCity(tp_chau_doc));
   // đường
+  graphicsLayer.add(withHighway(quoc_lo_60));
+  graphicsLayer.add(withHighway(quoc_lo_61));
+  graphicsLayer.add(withHighway(quoc_lo_61B));
+  graphicsLayer.add(withHighway(quoc_lo_62));
+  graphicsLayer.add(withHighway(quoc_lo_80));
 
   map.add(graphicsLayer);
 });
