@@ -74,6 +74,8 @@ require([
   graphicsLayer.add(withProvince(tra_vinh));
   graphicsLayer.add(withProvince(dong_thap));
   graphicsLayer.add(withProvince(vinh_long));
+  graphicsLayer.add(withProvince(bac_lieu));
+  graphicsLayer.add(withProvince(kien_giang));
   // cầu
   graphicsLayer.add(withBridge(cau_vam_cong));
   graphicsLayer.add(withBridge(cau_rach_mieu));
