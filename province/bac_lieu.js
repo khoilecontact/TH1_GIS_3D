@@ -1,4 +1,4 @@
-const long_an = {
+const bac_lieu = {
     title: "Tỉnh Bạc Liêu",
     population: "892.930",
     area: "213,8 km²",
