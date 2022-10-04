@@ -2,7 +2,7 @@ const tien_giang = {
   title: "Tỉnh Tiền Giang",
   population: "1.779.400",
   area: "2.556 km²",
-  color: [198, 137, 198, 0.7],
+  color: [198, 137, 198, 0.6],
   rings: [
     [105.94177263489925, 10.536288850354167], // Long An giao với Tiền Giang
     [105.98594052862552, 10.533479986557158],
