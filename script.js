@@ -12,8 +12,7 @@ require([
     container: "viewDiv",
     map: map,
     zoom: 8,
-    // center: [15, 65] // longitude, latitude
-    center: [106.10183715820308, 10.583671721437], // longitude, latitude 10.8811081,106.7976408
+    center: [105.78843324609142, 10.108445770112619],
   });
   const graphicsLayer = new GraphicsLayer();
 
@@ -66,7 +65,7 @@ require([
   const withHighway = (data) => {
     return new Graphic({
       geometry: { type: "polyline", paths: data.paths },
-      symbol: { type: "simple-line", color: data.color, withd: 5},
+      symbol: { type: "simple-line", color: data.color, withd: 5 },
       attributes: data,
       popupTemplate: {
         title: "{title}",
