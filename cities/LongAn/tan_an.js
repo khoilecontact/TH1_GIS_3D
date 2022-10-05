@@ -3,7 +3,7 @@ const tp_tan_an = {
   population: "145.120 người",
   area: "81,94 km²",
   coordinate: {
-    longitude: 106.22,
-    latitude: 10.525838,
+    longitude: 106.41926479766427,
+    latitude: 10.560992557716023,
   },
 };
