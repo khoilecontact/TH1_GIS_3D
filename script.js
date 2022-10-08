@@ -62,10 +62,27 @@ require([
     });
   };
 
+  const withTown = (data) => {
+    return new Graphic({
+      symbol: {
+        type: "picture-marker",
+        url: "https://cdn-icons-png.flaticon.com/512/2377/2377922.png",
+        width: "48px",
+        height: "48px",
+      },
+      attributes: data,
+      popupTemplate: {
+        title: "{title}",
+        content: "<a>Dân số: {population} <br> Diện tích: {area}</a>",
+      },
+      geometry: { type: "point", ...data.coordinate },
+    });
+  };
+
   const withHighway = (data) => {
     return new Graphic({
       geometry: { type: "polyline", paths: data.paths },
-      symbol: { type: "simple-line", color: data.color, withd: 5 },
+      symbol: { type: "simple-line", color: data.color, width: 2 },
       attributes: data,
       popupTemplate: {
         title: "{title}",
@@ -120,6 +137,17 @@ require([
   graphicsLayer.add(withCity(tp_bac_lieu));
   graphicsLayer.add(withCity(tp_long_xuyen));
   graphicsLayer.add(withCity(tp_chau_doc));
+  // thị xa
+  graphicsLayer.add(withTown(tx_binh_minh));
+  graphicsLayer.add(withTown(tx_cai_lay));
+  graphicsLayer.add(withTown(tx_tan_chau));
+  graphicsLayer.add(withTown(tx_duyen_hai));
+  graphicsLayer.add(withTown(tx_gia_rai));
+  graphicsLayer.add(withTown(tx_go_cong));
+  graphicsLayer.add(withTown(tx_kien_tuong));
+  graphicsLayer.add(withTown(tx_long_my));
+  graphicsLayer.add(withTown(tx_nga_nam));
+  graphicsLayer.add(withTown(tx_vinh_chau));
   // đường
   graphicsLayer.add(withHighway(quoc_lo_60));
   graphicsLayer.add(withHighway(quoc_lo_61));
